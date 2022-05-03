@@ -1,7 +1,6 @@
-This is a repository containing the benchmarks used in my bachelor thesis.
-# benchmarks done
-
-1. single crate performance
+# Benchmarks for RO-Crate libraries
+This repository contains benchmarks to compare the performance of different RO-Crate libraries. They have been crates in the bachelor thesis *A Software Library for Research Data Packaging and Exchange* of Nikola Tzotchev.
+## 1. single crate performance
 
 These are done in the jupyter notebook named [single_crate_plot](single_crate_plot.ipynb)
 
@@ -176,13 +175,13 @@ Adds the same amount of local data entities and person entities, each data entit
 
 The same as the above, but then the entities are deleted starting with the person ones and ending with the data entities.
 
-2. multiple crate performance
+## 2. multiple crate performance
 
 Here the amount of crates created varies, the entities inside a single crate are the same as the ones in the single crate mixture benchmark.
 The benchmark is done in [this notebook](multiple_crates.ipynb)
 
 
-3. read and write
+## 3. read and write
 
 Very similar to the previos test but the crates are written and then read (every single one of them).
 This benchmark is done in [this notebook](read_write.ipynb)
