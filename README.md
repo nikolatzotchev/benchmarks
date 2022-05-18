@@ -9,7 +9,7 @@ There were 5 different benchmarks done here:
 
 Here, a different amount of contextual entities is added to a single crate and the time is measured.
 The crates look like this:
-```
+```json
 {
     "@context": "https://w3id.org/ro/crate/1.1/context",
     "@graph": [
@@ -82,7 +82,7 @@ The crates look like this:
 Here, only remote data entities are added.
 The crate looks like this:
 
-```
+```json
 
 {
     "@context": "https://w3id.org/ro/crate/1.1/context",
@@ -129,7 +129,7 @@ Looks the same as the above one, but the entities used are locally present, gene
 
 Adds the same amount of local data entities and person entities, each data entity then has as author one of the person entities.
 
-```
+```json
 {
     "@context": "https://w3id.org/ro/crate/1.1/context",
     "@graph": [
